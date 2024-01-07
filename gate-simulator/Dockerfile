@@ -1,4 +1,4 @@
-FROM node:8.0
+FROM node:20.5.1
 WORKDIR /opt/app
 COPY . .
 RUN npm install
