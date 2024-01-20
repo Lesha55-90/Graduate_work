@@ -1,2 +1,4 @@
 rootProject.name = 'GraduateWork'
+include 'src'
+include 'artifactss'
 
