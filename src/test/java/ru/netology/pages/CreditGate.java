@@ -1,8 +1,11 @@
 package ru.netology.pages;
 
+import com.codeborne.selenide.CollectionCondition;
 import com.codeborne.selenide.ElementsCollection;
 import com.codeborne.selenide.SelenideElement;
 import ru.netology.data.Card;
+
+import java.time.Duration;
 
 import static com.codeborne.selenide.Condition.*;
 import static com.codeborne.selenide.Selectors.byText;
@@ -41,28 +44,28 @@ public class CreditGate {
     }
 
     public void waitNotificationApproved() {
-        approvedOperation.waitUntil(visible, 10000);
+        approvedOperation.shouldBe(visible, Duration.ofMillis(10000));
         cancelField.click();
     }
 
     public void waitNotificationFailure() {
-        failureOperation.waitUntil(visible, 10000);
+        failureOperation.shouldBe(visible, Duration.ofMillis(10000));
     }
 
     public void waitNotificationWrongFormat() {
-        wrongFormatError.waitUntil(visible, 10000);
+        wrongFormatError.shouldBe(visible, Duration.ofMillis(10000));
     }
 
     public void waitNotificationExpirationDateError() {
-        cardExpirationDateError.waitUntil(visible, 10000);
+        cardExpirationDateError.shouldBe(visible, Duration.ofMillis(10000));
     }
 
     public void waitNotificationExpiredError() {
-        cardExpiredError.waitUntil(visible, 10000);
+        cardExpiredError.shouldBe(visible, Duration.ofMillis(10000));
     }
 
     public void waitNotificationWrongFormat4Fields() {
-        wrongFormat4Error.shouldHaveSize(4);
-        requiredFieldError.waitUntil(visible, 10000);
+        wrongFormat4Error.should(CollectionCondition.size(4));
+        requiredFieldError.shouldBe(visible, Duration.ofMillis(10000));
     }
 }
