@@ -30,7 +30,7 @@ public class BuyGate {
     private SelenideElement cardExpiredError = $(byText("Истёк срок действия карты"));
     private SelenideElement requiredFieldError = $(byText("Поле обязательно для заполнения"));
     private SelenideElement cancelField = $$("[class=\"icon-button__text\"]").first();
-    private SelenideElement continueButton = $$("button").find(exactText("Продолжить"));
+    private SelenideElement continueButton = $(byText("Продолжить"));
 
     public BuyGate() {
         heading.shouldBe(visible);
@@ -51,7 +51,7 @@ public class BuyGate {
     }
 
     public void waitNotificationFailure() {
-        failureOperation.should(visible, Duration.ofMillis(15000));
+        failureOperation.shouldBe(visible, Duration.ofMillis(15000));
     }
 
     public void waitNotificationWrongFormat() {
