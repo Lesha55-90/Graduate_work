@@ -13,8 +13,8 @@
 
 ***Подготовительный этап***
 - Установить IntelliJ IDEA;
-- Установать и запустить Docker Desktop;
-- Установить Node.js; 
+- Установить Node.js;
+- Установать и запустить Docker Desktop; 
 - Скопировать репозиторий с Github [по ссылке](https://github.com/Lesha55-90/Graduate_work);
 - Открыть проект в IntelliJ IDEA;
 
