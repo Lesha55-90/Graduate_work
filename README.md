@@ -34,9 +34,9 @@
    ```
 
   Для PostgreSQL:
-   ```
-   java "-Dspring.datasource.url=jdbc:postgresql://localhost:5432/app" -jar artifacts/aqa-shop.jar
-   ```
+  ```
+  java "-Dspring.datasource.url=jdbc:postgresql://localhost:5432/app" -jar artifacts/aqa-shop.jar
+  ```
    
    
  ***Убедиться в готовности сервиса***:
