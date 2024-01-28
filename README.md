@@ -29,9 +29,9 @@
 - В новой вкладке терминала в IDEA ввести команду:
   
   Для MySQL:
-   ```
-   java "-Dspring.datasource.url=jdbc:mysql://localhost:3306/app" -jar artifacts/aqa-shop.jar
-   ```
+```
+java "-Dspring.datasource.url=jdbc:mysql://localhost:3306/app" -jar artifacts/aqa-shop.jar
+```
 
   Для PostgreSQL:
 ```
@@ -42,9 +42,9 @@ java "-Dspring.datasource.url=jdbc:postgresql://localhost:5432/app" -jar artifac
  ***Убедиться в готовности сервиса***:
  - приложение должно быть доступно по адресу:
 
-   ```
-   http://localhost:8080/
-   ```
+```
+http://localhost:8080/
+```
 
 ## Запустить тесты
 
