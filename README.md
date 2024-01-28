@@ -21,9 +21,9 @@
 
 ***Развернуть контейнеры MySQL, PostgreSQL и платформу Node.js***:
 - Запустить файл *docker-compose.yml*:
-   ```
-   docker compose up -build
-   ```
+```
+docker compose up -build
+```
 
 ***Запустить тестируемый сервис***:
 - В новой вкладке терминала в IDEA ввести команду:
