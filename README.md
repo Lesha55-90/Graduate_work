@@ -28,12 +28,12 @@ docker compose up -build
 ***Запустить тестируемый сервис***:
 - В новой вкладке терминала в IDEA ввести команду:
   
-  Для MySQL:
+Для MySQL:
 ```
 java "-Dspring.datasource.url=jdbc:mysql://localhost:3306/app" -jar artifacts/aqa-shop.jar
 ```
 
-  Для PostgreSQL:
+Для PostgreSQL:
 ```
 java "-Dspring.datasource.url=jdbc:postgresql://localhost:5432/app" -jar artifacts/aqa-shop.jar
 ```
