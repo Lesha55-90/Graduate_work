@@ -3,10 +3,12 @@
 
 ***Задача***: автоматизировать позитивные и негативные сценарии покупки тура.
 
-## Тестовая документация
-- [План тестирования](https://.....Plan.md);
-- [Отчет по итогам автоматизации](https://...Summary.md)
-- [Отчёт по итогам тестирования](https://...Report.md);
+## Тестовые артефакты
+- План тестирования: `https://github.com/Lesha55-90/Graduate_work/blob/main/documents/Plan.md`
+- Отчет по итогам тестирования: `https://github.com/Lesha55-90/Graduate_work/blob/main/documents/Report.md`
+- Gradle-отчет: `https://github.com/Lesha55-90/Graduate_work/blob/main/documents/images/Gradle_Report.png`
+- Allure-отчет: `https://github.com/Lesha55-90/Graduate_work/blob/main/documents/images/Allure_Report.png`
+- Отчет по автоматизации и подведение итогов: `https://github.com/Lesha55-90/Graduate_work/blob/main/documents/Summary_and_Auto.md`
 
 
 ## Запуск приложения
