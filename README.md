@@ -1,14 +1,18 @@
 # Дипломный проект профессии «Тестировщик»
-[Ссылка на Дипломное задание](https://github.com/netology-code/qa-diploma)
+Ссылка на Дипломное задание: 
+
+```
+https://github.com/netology-code/qa-diploma
+```
 
 ***Задача***: автоматизировать позитивные и негативные сценарии покупки тура.
 
 ## Тестовые артефакты
-- План тестирования: `https://github.com/Lesha55-90/Graduate_work/blob/main/documents/Plan.md`
-- Отчет по итогам тестирования: `https://github.com/Lesha55-90/Graduate_work/blob/main/documents/Report.md`
-- Gradle-отчет: `https://github.com/Lesha55-90/Graduate_work/blob/main/documents/images/Gradle_Report.png`
-- Allure-отчет: `https://github.com/Lesha55-90/Graduate_work/blob/main/documents/images/Allure_Report.png`
-- Отчет по автоматизации и подведение итогов: `https://github.com/Lesha55-90/Graduate_work/blob/main/documents/Summary_and_Auto.md`
+- [План тестирования](https://github.com/Lesha55-90/Graduate_work/blob/main/documents/Plan.md)
+- [Отчет по итогам тестирования](https://github.com/Lesha55-90/Graduate_work/blob/main/documents/Report.md)
+- [Gradle-отчет](https://github.com/Lesha55-90/Graduate_work/blob/main/documents/images/Gradle_Report.png)
+- [Allure-отчет](https://github.com/Lesha55-90/Graduate_work/blob/main/documents/images/Allure_Report.png)
+- [Отчет по автоматизации и подведение итогов](https://github.com/Lesha55-90/Graduate_work/blob/main/documents/Summary_and_Auto.md)
 
 
 ## Запуск приложения
@@ -17,7 +21,10 @@
 - Установить IntelliJ IDEA;
 - Установить Node.js;
 - Установать и запустить Docker Desktop; 
-- Скопировать репозиторий с Github [по ссылке](https://github.com/Lesha55-90/Graduate_work);
+- Скопировать репозиторий с Github по ссылке: 
+```
+https://github.com/Lesha55-90/Graduate_work
+```
 - Открыть проект в IntelliJ IDEA;
 
 
