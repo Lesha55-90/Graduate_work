@@ -49,11 +49,18 @@ http://localhost:8080/
 ## Запустить тесты
 
 - В новой вкладке терминала в IDEA ввести команду:
+- 
+Для MySQL:
 
 ```
-./gradlew clean test
+./gradlew clean test "-Ddb.url=jdbc:mysql://localhost:3306/app"
 ```
 
+Для PostgreSQL:
+
+```
+./gradlew clean test "-Ddb.url=jdbc:postgresql://localhost:5432/app"
+```
 
 ## Формирование отчёта о тестировании
 - Для формирования отчёта через Allure, в новой вкладке терминала в IDEA вводим команду:
