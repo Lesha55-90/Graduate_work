@@ -31,7 +31,7 @@ https://github.com/Lesha55-90/Graduate_work
 ***Развернуть контейнеры MySQL, PostgreSQL и платформу Node.js***:
 - Запустить файл *docker-compose.yml*:
 ```
-docker compose up -build
+docker compose up --build
 ```
 
 ***Запустить тестируемый сервис***:
